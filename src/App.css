@@ -17,4 +17,12 @@
     min-height: 75vh;
     padding: 1rem;
   }    
-  
+
+/* redes al pie de pagina */
+.redes {
+  background-color: blue;
+  color: white;
+  padding: 0.4em;
+  margin: 0.3em;
+  border-radius: 1em;
+}
