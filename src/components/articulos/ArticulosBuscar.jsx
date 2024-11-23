@@ -2,7 +2,7 @@
 y dos funciones "Buscar" y "Agregar" 
 que serán provistas por su componente padre "Articulos"*/
 
-function ArticulosBuscar (Nombre, setNombre, Activo, setActivo, Buscar, Agregar) {
+function ArticulosBuscar ({ Nombre, setNombre, Activo, setActivo, Buscar, Agregar }) {
     return (
         <form name="FormBusqueda">
             <div className="container-fluid">
@@ -63,4 +63,4 @@ function ArticulosBuscar (Nombre, setNombre, Activo, setActivo, Buscar, Agregar)
         </form>
     );
 };
-export { ArticulosBuscar };
+export default ArticulosBuscar ;

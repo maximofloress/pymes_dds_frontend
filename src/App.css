@@ -18,6 +18,15 @@
     padding: 1rem;
   }    
 
+/* pie de la pagina */
+footer {
+  padding: 1rem;
+}
+.navbar-brand {
+  color: aquamarine;
+  font-size: 1.5rem;
+}
+
 /* redes al pie de pagina */
 .redes {
   background-color: blue;

@@ -3,7 +3,7 @@ import moment from "moment";
 /* este componente recibe como parámetros los estados: Items, RegistrosTotal, Pagina y Páginas. 
  Y las funciones Buscar, Consultar, Modificar, ActivarDesactivar, Imprimir, 
  que serán provistas por su componente padre "Articulos" */
-function ArticulosListado(
+function ArticulosListado({
   Items,
   Consultar,
   Modificar,
@@ -13,7 +13,7 @@ function ArticulosListado(
   RegistrosTotal,
   Paginas,
   Buscar,
-) {
+}) {
   return (
     <div className="table-responsive">
       <table className="table table-hover table-sm table-bordered table-striped">
@@ -107,4 +107,4 @@ function ArticulosListado(
   );
 }
 
-export { ArticulosListado };
+export default ArticulosListado ;

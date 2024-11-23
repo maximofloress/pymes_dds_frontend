@@ -4,6 +4,8 @@ import {Menu} from "./components/Menu";
 import { Footer } from "./components/Footer";
 import { Inicio } from "./components/Inicio";
 import { ArticulosFamilias } from "./components/ArticulosFamilias";
+import Articulos from "./components/articulos/ArticulosVista";
+
 function App() {
   return (
     <>
@@ -12,10 +14,8 @@ function App() {
           <div className="divBody">
             <Routes>
               <Route path="/inicio" element={<Inicio />} />
-              <Route
-                path="/articulosfamilias"
-                element={<ArticulosFamilias />}
-              />
+              <Route path="/articulosfamilias" element={<ArticulosFamilias />} />
+              <Route path="/articulos" element={<Articulos/>} />
               <Route path="*" element={<Navigate to="/inicio" replace />} />
             </Routes>
           </div>
